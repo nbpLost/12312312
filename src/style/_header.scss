@@ -1,0 +1,21 @@
+.header {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__logo {
+	}
+}
+
+.nav {
+	&__list {
+		list-style: none;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: var(--color-black);
+		gap: 44px;
+	}
+}
